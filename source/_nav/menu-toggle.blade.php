@@ -16,6 +16,7 @@
 
 @push('scripts')
 <script>
+    /*TODO: fix bug in changing size while menu is open */
     const navMenu = {
         toggle() {
             const menu = document.getElementById('js-nav-menu');

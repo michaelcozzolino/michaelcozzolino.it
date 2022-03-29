@@ -1,6 +1,7 @@
-# Chasingcode.dev
+# [Michaelcozzolino.it](https://michaelcozzolino.it)
 
-Feel free to clone and modify my site and blog template. If you find it useful, I would appreciate dropping me a note at [https://chasingcode.dev/contact/](https://chasingcode.dev/contact/).
+Feel free to clone and modify my personal website. 
+Template by [breadthe](https://github.com/breadthe/chasingcode.dev).
 
 ## Installation
 

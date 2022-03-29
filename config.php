@@ -6,15 +6,16 @@ use Illuminate\Support\Collection;
 return [
     'baseUrl' => '',
     'production' => false,
-    'siteName' => 'Chasing Code',
-    'siteDescription' => 'Full stack dev in Chicago | Laravel | PHP | Vue | TailwindCSS',
-    'siteAuthor' => 'Constantin',
+    'siteName' => 'Michael Cozzolino',
+    'siteDescription' => 'I am a web development enthusiast. | Laravel | PHP | Vue | Bootstrap',
+    'siteAuthor' => 'Michael',
+    'email' => 'me@michaelcozzolino.it',
     'twitterHandle' => 'brbcoding',
 
     // collections
     'collections' => [
         'posts' => [
-            'author' => 'Constantin', // Default author, if not provided in a post
+            'author' => 'Michael', // Default author, if not provided in a post
             'sort' => '-date',
             'path' => function ($page) {
                 $slug = preg_replace('/[0-9]{4}-[0-9]{2}-[0-9]{2}-/i', '', $page->getFilename());
@@ -113,4 +114,5 @@ return [
     'fgColor' => function ($category) {
         return HexColorPair::minContrast(5)->getSibling(substr(md5($category), 0, 6))->hex;
     },
+
 ];

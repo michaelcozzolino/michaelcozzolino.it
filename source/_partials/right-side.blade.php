@@ -3,11 +3,17 @@
         <img src="assets/images/me.jpg" alt="Picture of me" title="Picture of me" class="rounded-full border-8 border-double border-teal-700 w-64 h-64">
 
         <div class="flex mt-8">
-            <a href="https://twitter.com/brbcoding" class="mx-2 text-blue-500 hover:text-blue-700" title="Follow me on Twitter - @brbcoding" aria-label="Follow me on Twitter - @brbcoding">
-                @include('_partials.icons._svg', ['icon' => 'twitter', 'width' => 32, 'height' => 32])
+            <a href="https://www.linkedin.com/in/michaelcozzolino/" class="mx-2 text-blue-500 hover:text-blue-700" title="Add me on LinkedIn" aria-label="Add me on LinkedIn">
+                @include('_partials.icons._svg', ['icon' => 'linkedin', 'width' => 32, 'height' => 32])
             </a>
-            <a href="https://github.com/breadthe" class="mx-2 text-green-500 hover:text-green-700" title="Find my projects on Github - @breadthe" aria-label="Find my projects on Github - @breadthe">
+            <a href="https://github.com/michaelcozzolino" class="mx-2 text-green-500 hover:text-green-700" title="Find my projects on Github - @michaelcozzolino" aria-label="Find my projects on Github - @michaelcozzolino">
                 @include('_partials.icons._svg', ['icon' => 'github', 'width' => 32, 'height' => 32])
+            </a>
+            <a href="mailto:{{$page->email}}" class="mx-2 text-indigo-500 hover:text-indigo-700" title="Send me an email" aria-label="Send me an email">
+                @include('_partials.icons._svg', ['icon' => 'mail', 'width' => 32, 'height' => 32])
+            </a>
+            <a href="https://stackoverflow.com/users/12886555" class="mx-2">
+                <img alt="Stack Overflow statistics" title="Stack Overflow statistics" src="https://github-readme-stackoverflow.vercel.app/?userID=12886555&layout=compact&theme=dark">
             </a>
         </div>
     </div>
@@ -20,21 +26,18 @@
         <hr class="m-0 mb-4 border-b-2 border-gray-400 w-16 text-left">
 
         <dl class="flex flex-wrap">
-            <dt class="w-full inline font-black uppercase">Background</dt>
-            <dd class="inline-flex items-center mb-4">
-                <a href="https://en.wikipedia.org/wiki/Romania" title="Romania" class="inline-flex items-center text-gray-700">
-                    🇷🇴 Romanian
-                    <span class="ml-1 text-gray-500">@include('_partials.icons._svg', ['icon' => 'external-link', 'width' => 20, 'height' => 20])</span>
-                </a>
+            <dt class="w-full inline font-black uppercase">Nationality</dt>
+            <dd class="inline-flex mb-4">
+                Italian
             </dd>
 
-            <dt class="w-full inline font-black uppercase">Living in</dt> <dd class="inline mb-4">Illinois, USA</dd>
+            <dt class="w-full inline font-black uppercase">Currently living in</dt>
+            <dd class="inline mb-4">Aquino - Lazio - Italy</dd>
 
-            <dt class="w-full inline font-black uppercase">Age</dt> <dd class="inline mb-4">Old enough to enjoy a nice, cold hefeweizen 🍺.</dd>
+            <dt class="w-full inline font-black uppercase">Born in</dt> <dd class="inline mb-4">June 1996</dd>
 
-            <dt class="w-full inline font-black uppercase">Interests</dt> <dd class="inline mb-4">⌨️ Coding &bull; 🛠 Making things &bull; 💪 Lifting &bull; 🚲 Cycling &bull; ⛷ Skiing &bull; 🐠 Freediving &bull; 📖 Reading &bull; 🕹 Gaming</dd>
+            <dt class="w-full inline font-black uppercase">Interests</dt> <dd class="inline mb-4">⌨️ Coding &bull; 🛠 Making things &bull; 🎞️ Movies &bull; 🏎️ F1 &bull; 🤝 Friends  </dd>
 
-            <dt class="w-full inline font-black uppercase">Trivia</dt> <dd class="inline mb-4">Lived > 50% of my life outside my country of birth.</dd>
         </dl>
     </div>
 
@@ -48,9 +51,13 @@
         <ul>
             <li class="mb-4 font-black uppercase">Laravel</li>
 
+            <li class="mb-4 font-black uppercase">MySQL</li>
+
             <li class="mb-4 font-black uppercase">Vue.js</li>
 
-            <li class="mb-4 font-black uppercase">TailwindCSS</li>
+            <li class="mb-4 font-black uppercase">Inertia.js</li>
+
+            <li class="mb-4 font-black uppercase">Bootstrap</li>
         </ul>
     </div>
 
@@ -79,9 +86,9 @@
             </li>
 
             <li class="mb-4">
-                Hosted on
-                <a href="https://www.netlify.com/" title="Hosted on Netlify" class="inline-flex items-center font-black uppercase">
-                    Netlify <span class="ml-1 text-gray-500">@include('_partials.icons._svg', ['icon' => 'external-link', 'width' => 20, 'height' => 20])</span>
+                Template by
+                <a href="https://github.com/breadthe/chasingcode.dev" title="Template by breadthe" class="inline-flex items-center font-black uppercase">
+                    breadthe <span class="ml-1 text-gray-500">@include('_partials.icons._svg', ['icon' => 'external-link', 'width' => 20, 'height' => 20])</span>
                 </a>
             </li>
         </ul>

@@ -1,6 +1,6 @@
 <?php
 
 return [
-    'baseUrl' => 'https://chasingcode.dev',
+    'baseUrl' => 'https://michaelcozzolino.it',
     'production' => true,
 ];

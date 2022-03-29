@@ -2,60 +2,21 @@
     <ul class="my-0">
         <li class="pl-4">
             <a
-                title="{{ $page->siteName }} Blog"
-                href="/blog"
-                class="
-                    nav-menu__item inline-block text-teal-200 text-2xl
-                    {{
-                        $page->belongsTo('/blog') ?
-                        'active hover:text-teal-400 border-b-2 border-teal-400' :
-                        ''
-                    }}
-                "
+                    title="{{ $page->siteName }} Education"
+                    href="#education"
+                    class="nav-menu__item inline-block text-teal-200 text-2xl"
+            >Education</a>
 
-            >Blog</a>
-        </li>
-        <li class="pl-4">
             <a
-                title="Archive"
-                href="/archive"
-                class="
-                    nav-menu__item inline-block text-teal-200 text-2xl
-                    {{
-                        $page->belongsTo('/archive') ?
-                        'active hover:text-teal-400 border-b-2 border-teal-400' :
-                        ''
-                    }}
-                "
-            >Archive</a>
-        </li>
-        <li class="pl-4">
+                    title="{{ $page->siteName }} Personal Projects"
+                    href="#personal-projects"
+                    class="nav-menu__item inline-block text-teal-200 text-2xl"
+            >Personal Projects</a>
             <a
-                title="Uses"
-                href="/uses"
-                class="
-                    nav-menu__item inline-block text-teal-200 text-2xl
-                    {{
-                        $page->belongsTo('/uses') ?
-                        'active hover:text-teal-400 border-b-2 border-teal-400' :
-                        ''
-                    }}
-                "
-            >Uses</a>
-        </li>
-        <li class="pl-4">
-            <a
-                title="{{ $page->siteName }} Contact"
-                href="/contact"
-                class="
-                    nav-menu__item inline-block text-teal-200 text-2xl
-                    {{
-                        $page->belongsTo('/contact') ?
-                        'active hover:text-teal-400 border-b-2 border-teal-400' :
-                        ''
-                    }}
-                "
-            >Contact</a>
+                    title="{{ $page->siteName }} CV"
+                    href="https://cv.michaelcozzolino.it"
+                    class="nav-menu__item inline-block text-teal-200 text-2xl"
+            >CV</a>
         </li>
     </ul>
 </nav>
